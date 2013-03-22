@@ -1,4 +1,4 @@
 moderncake
 ==========
 
-a cakephp setup that includes a modern workflow
+a cakephp setup that includes a modern workflow, youpi!

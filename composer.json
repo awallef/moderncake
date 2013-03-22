@@ -3,8 +3,7 @@
 	"description": "a cakephp setup that includes a modern workflow",
 	"minimum-stability": "dev",
 	"require": {
-            "twitter/bootstrap": "2.3.*",
-            "jquery/jquery": "1.9.*"
+            "twitter/bootstrap": "2.3.*"
         },
 	"repositories": [
             {

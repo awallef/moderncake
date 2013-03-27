@@ -1,24 +1,25 @@
 {
-	"name": "awallef/moderncake",
-	"description": "a cakephp setup that includes a modern workflow",
-	"minimum-stability": "dev",
-	"require": {
-            "twitter/bootstrap": "2.3.*"
-        },
-	"repositories": [
-            {
-                "type": "package",
-                "package": {
-                    "name": "jquery/jquery",
-                    "version": "1.9.1",
-                    "dist": {
-                        "url": "http://code.jquery.com/jquery-1.9.1.js",
-                        "type": "file"
-                    }
-                }
+    "name": "awallef/moderncake",
+    "description": "a cakephp setup that includes a modern workflow",
+    "minimum-stability": "dev",
+    "require": {
+        "twitter/bootstrap": "2.3.*",
+        "jquery/jquery" : "1.9.1"
+    },
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "jquery/jquery",
+            "version": "1.9.1",
+            "dist": {
+                "url": "http://code.jquery.com/jquery-1.9.1.min.js",
+                "type": "zip"
             }
-        ],
-        "config": {
-            "vendor-dir" : "vendors"
         }
+    }
+    ],
+    "config": {
+        "vendor-dir" : "vendors"
+    }
 }

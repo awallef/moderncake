@@ -9,6 +9,17 @@
     {
         "type": "package",
         "package": {
+            "name": "yahoo/yui-compressor",
+            "version": "2.0.4",
+            "dist": {
+                "url": "http://yui.zenfs.com/releases/yuicompressor/yuicompressor-2.4.7.zip",
+                "type": "zip"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
             "name": "jquery/jquery",
             "version": "1.9.1",
             "dist": {

@@ -6,8 +6,9 @@
         "twitter/bootstrap": "2.3.*",
         "jquery/jquery": "*"
     },
-    "repositories": [
-    {  
+    "repositories": {
+        "jquery-github" :
+         {  
             "type": "package",  
             "package": {  
                 "name": "jquery/jquery",  
@@ -19,7 +20,7 @@
                 }  
             }  
         } 
-    ],
+    },
     "config": {
         "vendor-dir" : "vendors"
     }

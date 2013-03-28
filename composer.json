@@ -3,33 +3,24 @@
     "description": "a cakephp setup that includes a modern workflow",
     "minimum-stability": "dev",
     "require": {
-        "twitter/bootstrap": "2.3.*"
+        "twitter/bootstrap": "2.3.*",
+        "jquery/jquery": "*"
     },
     "repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "yahoo/yui-compressor",
-            "version": "2.0.4",
-            "dist": {
-                "url": "http://yui.zenfs.com/releases/yuicompressor/yuicompressor-2.4.7.zip",
-                "type": "zip"
-            }
-        }
-    },
-    {
-        "type": "package",
-        "package": {
-            "name": "jquery/jquery",
-            "version": "1.9.1",
-            "dist": {
-                "url": "http://code.jquery.com/jquery-1.9.1.min.js",
-                "type": "zip"
-            }
-        }
-    }
+    {  
+            "type": "package",  
+            "package": {  
+                "name": "jquery/jquery",  
+                "version": "1.9-stable",  
+                "source":{  
+                    "url":"https://github.com/jquery/jquery.git",  
+                    "type":"git",  
+                    "reference":"master"  
+                }  
+            }  
+        } 
     ],
     "config": {
         "vendor-dir" : "vendors"
     }
-}
+}  
